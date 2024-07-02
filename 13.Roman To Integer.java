@@ -1,4 +1,4 @@
-class RomanToInteger {
+class Solution {
     public int IntVal(char c){
         if(c=='I') return 1;
         if(c=='V')return 5;
