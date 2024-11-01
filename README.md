@@ -2,7 +2,6 @@
 
 This repository contains my solutions to LeetCode problems.
 
-It contains  <!-- FILE_COUNT --> codes
 
 Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 
