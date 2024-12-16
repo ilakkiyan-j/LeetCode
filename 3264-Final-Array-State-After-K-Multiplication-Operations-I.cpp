@@ -9,13 +9,10 @@ public:
         for(int i=0;i<k;i++){
              auto[num,idx] = q.top();
              q.pop();
-             q.push({num*multiplier,idx});
+              nums[idx]=num*multiplier;
+             q.push({nums[idx],idx});
         }
-        for(int x=0;x<n;x++){
-             auto[num,idx] = q.top();
-             q.pop();
-             nums[idx]=num;
-        }
+
         return nums;
     }
 };
